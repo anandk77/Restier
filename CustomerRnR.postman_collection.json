@@ -1,0 +1,470 @@
+{
+	"id": "705d9686-c1dc-c75e-e54c-fe3e43735936",
+	"name": "CustomerRnR",
+	"description": "",
+	"order": [
+		"973df277-81bd-4aee-c5b4-cc0a859d08d2",
+		"2ccb7af5-fce0-bdd2-d381-2878bfca7843",
+		"112f6992-a327-ed3d-4092-5df31e9c17f5",
+		"c140df4b-c23b-1824-68a1-9ee162e14d8e",
+		"62a458f7-49ac-ca43-9509-6e1ad1df223d",
+		"9afb6d3f-91be-b1b6-5a90-226dccc94995",
+		"beb3b944-457e-5636-5b6c-28416c3034cf",
+		"d5cb9c18-a7d7-bf7b-e1e5-e66a5ae6fff7",
+		"cb4e461c-452e-8386-7da8-46452e8415c5",
+		"8724565c-4d79-9707-46ce-ef3e9c7b7299",
+		"88219e7d-4957-847b-17f2-505bd857720c",
+		"c7dbc48d-a27e-57a7-9bf2-2c2877238b2a"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1602851387586,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "112f6992-a327-ed3d-4092-5df31e9c17f5",
+			"headers": "Content-Type: application/json;odata.metadata=minimal\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;odata.metadata=minimal",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60876/api/CustomerRnR/Users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "705d9686-c1dc-c75e-e54c-fe3e43735936",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:60876/api/CustomerRnR/Users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1602851745463,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"Name\" : \"Moni\",\r\n\t\"Place\" : \"Bangalore\"\r\n}"
+		},
+		{
+			"id": "2ccb7af5-fce0-bdd2-d381-2878bfca7843",
+			"headers": "Content-Type: application/json;odata.metadata=minimal\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;odata.metadata=minimal",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60876/api/CustomerRnR/Users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "705d9686-c1dc-c75e-e54c-fe3e43735936",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:60876/api/CustomerRnR/Users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1602851723244,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"Name\" : \"Jass\",\r\n\t\"Place\" : \"Hyderbad\"\r\n}"
+		},
+		{
+			"id": "62a458f7-49ac-ca43-9509-6e1ad1df223d",
+			"headers": "Content-Type: application/json;odata.metadata=minimal\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;odata.metadata=minimal",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60876/api/CustomerRnR/CustomerReviews(1)/Product/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "705d9686-c1dc-c75e-e54c-fe3e43735936",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:60876/api/CustomerRnR/CustomerReviews(1)/Product/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1602852105784,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"UserID\" : \"1\",\r\n\t\"Rating\" : 4,\r\n\t\"ReviewComments\" : \"Very good product\",\r\n\t\"ProductID\" : 2,\r\n\t\"CreatedDate\":\"16/10/2020 11:45\",\r\n\t\"ModifiedDate\":\"16/10/2020 11:45\"\r\n}"
+		},
+		{
+			"id": "8724565c-4d79-9707-46ce-ef3e9c7b7299",
+			"headers": "Content-Type: application/json;odata.metadata=minimal\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;odata.metadata=minimal",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60876/api/CustomerRnR/CustomerReviews(1)/Product/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "705d9686-c1dc-c75e-e54c-fe3e43735936",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:60876/api/CustomerRnR/CustomerReviews(1)/Product/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603107311870,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"UserID\" : \"1\",\r\n\t\"Rating\" : 4,\r\n\t\"ReviewComments\" : \"Very good product\",\r\n\t\"ProductID\" : 2,\r\n\t\"CreatedDate\":\"16/10/2020 11:45\",\r\n\t\"ModifiedDate\":\"16/10/2020 11:45\"\r\n}"
+		},
+		{
+			"id": "88219e7d-4957-847b-17f2-505bd857720c",
+			"headers": "Content-Type: application/json;odata.metadata=minimal\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;odata.metadata=minimal",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60876/api/CustomerRnR/CustomerReviews(2)/User/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "705d9686-c1dc-c75e-e54c-fe3e43735936",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:60876/api/CustomerRnR/CustomerReviews(2)/User/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603107361429,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"UserID\" : \"1\",\r\n\t\"Rating\" : 4,\r\n\t\"ReviewComments\" : \"Very good product\",\r\n\t\"ProductID\" : 2,\r\n\t\"CreatedDate\":\"16/10/2020 11:45\",\r\n\t\"ModifiedDate\":\"16/10/2020 11:45\"\r\n}"
+		},
+		{
+			"id": "973df277-81bd-4aee-c5b4-cc0a859d08d2",
+			"headers": "Content-Type: application/json;odata.metadata=minimal\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;odata.metadata=minimal",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60876/api/CustomerRnR/Products",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "705d9686-c1dc-c75e-e54c-fe3e43735936",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:60876/api/CustomerRnR/Products",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1602851389914,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\n\t\"Name\" : \"Yo-Yo\",\n\t\"Category\" : \"Toys\",\n\t\"Price\" : 7.5\n}"
+		},
+		{
+			"id": "9afb6d3f-91be-b1b6-5a90-226dccc94995",
+			"headers": "Content-Type: application/json;odata.metadata=minimal\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;odata.metadata=minimal",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60876/api/CustomerRnR/Users(1)/CustomerReviews",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "705d9686-c1dc-c75e-e54c-fe3e43735936",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:60876/api/CustomerRnR/CustomerReviews(1)/Product/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1602854569162,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"UserID\" : \"1\",\r\n\t\"Rating\" : 4,\r\n\t\"ReviewComments\" : \"Very good product\",\r\n\t\"ProductID\" : 2,\r\n\t\"CreatedDate\":\"16/10/2020 11:45\",\r\n\t\"ModifiedDate\":\"16/10/2020 11:45\"\r\n}"
+		},
+		{
+			"id": "beb3b944-457e-5636-5b6c-28416c3034cf",
+			"headers": "Content-Type: application/json;odata.metadata=minimal\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;odata.metadata=minimal",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60876/api/CustomerRnR/CustomerReviews",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "705d9686-c1dc-c75e-e54c-fe3e43735936",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:60876/api/CustomerRnR/CustomerReviews",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603093999068,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"UserID\" : \"1\",\r\n\t\"Rating\" : 3,\r\n\t\"ReviewComments\" : \"\",\r\n\t\"ProductID\" : 1\r\n}"
+		},
+		{
+			"id": "c140df4b-c23b-1824-68a1-9ee162e14d8e",
+			"headers": "Content-Type: application/json;odata.metadata=minimal\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;odata.metadata=minimal",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60876/api/CustomerRnR/CustomerReviews",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "705d9686-c1dc-c75e-e54c-fe3e43735936",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:60876/api/CustomerRnR/CustomerReviews",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1602851956308,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"UserID\" : \"2\",\r\n\t\"Rating\" : 4.5,\r\n\t\"ReviewComments\" : \"Nice product\",\r\n\t\"ProductID\" : 3\r\n}"
+		},
+		{
+			"id": "c7dbc48d-a27e-57a7-9bf2-2c2877238b2a",
+			"headers": "Content-Type: application/json;odata.metadata=minimal\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;odata.metadata=minimal",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60876/api/CustomerRnR/CustomerReviews(1)/Product",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "705d9686-c1dc-c75e-e54c-fe3e43735936",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:60876/api/CustomerRnR/CustomerReviews(1)/Product",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603107426156,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"UserID\" : \"1\",\r\n\t\"Rating\" : 4,\r\n\t\"ReviewComments\" : \"Very good product\",\r\n\t\"ProductID\" : 2,\r\n\t\"CreatedDate\":\"16/10/2020 11:45\",\r\n\t\"ModifiedDate\":\"16/10/2020 11:45\"\r\n}"
+		},
+		{
+			"id": "cb4e461c-452e-8386-7da8-46452e8415c5",
+			"headers": "Content-Type: application/json;odata.metadata=minimal\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;odata.metadata=minimal",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60876/api/CustomerRnR/Users(2)/CustomerReviews",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "705d9686-c1dc-c75e-e54c-fe3e43735936",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:60876/api/CustomerRnR/Users(2)/CustomerReviews",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603107269239,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"UserID\" : \"1\",\r\n\t\"Rating\" : 4,\r\n\t\"ReviewComments\" : \"Very good product\",\r\n\t\"ProductID\" : 2,\r\n\t\"CreatedDate\":\"16/10/2020 11:45\",\r\n\t\"ModifiedDate\":\"16/10/2020 11:45\"\r\n}"
+		},
+		{
+			"id": "d5cb9c18-a7d7-bf7b-e1e5-e66a5ae6fff7",
+			"headers": "Content-Type: application/json;odata.metadata=minimal\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;odata.metadata=minimal",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:60876/api/CustomerRnR/CustomerReviews(20)",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "705d9686-c1dc-c75e-e54c-fe3e43735936",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:60876/api/CustomerRnR/CustomerReviews",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603106668707,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"UserID\" : \"1\",\r\n\t\"Rating\" : 3,\r\n\t\"ReviewComments\" : \"\",\r\n\t\"ProductID\" : 1\r\n}"
+		}
+	]
+}
